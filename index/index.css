@@ -28,6 +28,10 @@ body{
 .esdermaImgCont{
     width: 50%;
 }
+.esdermaImgCont img {
+    width: 100px;
+    height: 50px;
+}
 .esdermaNav div span{
     border-right:2px solid #945045;
 }
