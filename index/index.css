@@ -100,7 +100,24 @@ body{
     font-family: sans-serif;
 
 }
-.blogs{
+.blogCardHeader p a:link{
+    text-decoration: underline;
+}
+.blogCardHeader p a:link, .blogCardHeader p a:visited{
+    font-size: 20px;
+    /* width: inherit; */
+    text-align: center;
+    text-decoration: none;
+    color: green;
+    transition: 400ms;
+}
+.blogCardHeader p a:link:hover,.blogCardHeader p a:visited:hover{
+font-size: 20px;
+/* width: inherit; */
+text-align: center;
+text-decoration: none;
+color: #f58507;
+}blogs{
     padding: 1em;
     border: 1px solid black;
 }
@@ -121,7 +138,21 @@ body{
 .slide img {
     width: 500px;
 }
-  
+  .slide a:link,.slide a:visited{
+        font-size: 20px;
+        /* width: inherit; */
+        text-align: center;
+        text-decoration: none;
+        color: green;
+        transition: 400ms;
+  }
+  .slide a:link:hover,.slide a:visited:hover{
+    font-size: 20px;
+    /* width: inherit; */
+    text-align: center;
+    text-decoration: none;
+    color: #f58507;
+}
   .prev, .next {
     position: absolute;
     top: 50%;
