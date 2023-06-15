@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     function showSlide(n) {
       slides[currentSlide].style.display = "none";
       currentSlide = (n + slides.length) % slides.length;
-      slides[currentSlide].style.display = "block";
+      slides[currentSlide].style.display = "flex";
     }
   
     function nextSlide() {
