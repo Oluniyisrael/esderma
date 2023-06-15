@@ -104,22 +104,6 @@ body{
     padding: 1em;
     border: 1px solid black;
 }
-@media screen and (max-width: 700px) {
-    .blogCard{
-    width: 80%;
-    }
-    .listOfLinks {
-        width: 70%;
-        font-size: 13px;
-    }
-    .listOfLinks a {
-        width: 70px;
-    }
-    .listOfLinks li {
-        width: 65px;
-        text-align: center;
-    }
-}
 /* slideshow */
 .slideshow-container {
     position: relative;
@@ -161,3 +145,22 @@ body{
     right: 10px;
   }
   
+@media screen and (max-width: 700px) {
+    .blogCard{
+    width: 80%;
+    }
+    .listOfLinks {
+        width: 70%;
+        font-size: 13px;
+    }
+    .listOfLinks a {
+        width: 70px;
+    }
+    .listOfLinks li {
+        width: 65px;
+        text-align: center;
+    }
+    .slide img {
+        width: 100%;
+    }
+}
